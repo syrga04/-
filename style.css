@@ -1,0 +1,162 @@
+/* Видео фон */
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Заполнение экрана видео */
+    z-index: -1;        /* Видео будет на заднем плане */
+}
+
+/* Контейнер */
+.container {
+    width: 100%;
+    height: 100vh;  /* Высота на весь экран */
+    display: flex;  /* Используем flexbox для горизонтального расположения */
+    position: relative; /* Для точного позиционирования */
+}
+.sity{ display: flex;
+p{
+    color: white;
+    margin-top: 90%;
+    margin-left: 10%;
+    font-size: 250px;
+}
+
+    .bi.bi-clouds {
+        margin-bottom: 90%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 200%;
+        margin-left: 20%;
+        color: white;
+        font-size: 250px;
+    }
+    h4{
+        justify-content: end;
+        font-size: 80px;
+        margin-top: 93%;
+    }
+}
+
+
+.weather-info-item1{
+
+    margin-top: 5%;
+    margin-left: 8%;
+    color: white;
+    /*padding-right: 5%;*/
+    /*width: 60%;       !* Занимает 50% экрана *!*/
+    /*height: 100%;     !* Высота на весь экран *!*/
+    /*position: relative; !* Для правильного наложения мутного фона *!*/
+    font-size: 70px;
+}
+
+/* Левая половина контейнера с мутным фоном */
+.right-side-2 {
+    margin-top: 7%;
+    margin-left: 8%;
+    /*padding-right: 5%;*/
+    width: 90%;       /* Занимает 50% экрана */
+    height: 100%;     /* Высота на весь экран */
+    position: relative; /* Для правильного наложения мутного фона */
+    font-size: 45px;
+p{
+    font-size: 70px;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+    /*letter-spacing: 2px; !* Каттардын ортосундагы аралык *!*/
+    /*word-spacing: 25px;*/
+
+
+
+    /*flex-direction: column;*/
+    /*justify-content: center; !* Выравнивание текста по центру *!*/
+}
+
+/* Наложение мутного фона */
+
+
+/* Текст на мутном фоне */
+.weather-info {
+    margin-top: -5%;
+    position: relative;
+    color: white;  /* Белый цвет текста */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);  /* Тень для улучшения контраста */
+    z-index: 1;  /* Текст будет поверх мутного фона */
+}
+.rectangle{
+margin-top: 1%;
+    margin-left: 7%;
+        width: 1750px; /* Ширина */
+        height: 10px; /* Высота */
+        background-color: white; /* Цвет */
+
+}
+.rectanglese {
+    margin-top: -60%;
+    margin-left: 7%;
+    width: 1750px; /* Ширина */
+    height: 12px; /* Высота */
+    background-color: white; /* Цвет */
+
+}
+
+.bi.bi-thermometer-half{
+    margin-left: 53%;
+    color: rosybrown;
+    margin-top: 5%;
+}
+
+.bi.bi-droplet-fill{
+    margin-left: 52%;
+}
+.bi.bi-wind{
+    margin-left: 58%;
+}
+.bi.bi-clouds{
+    margin-left: 58%;
+}
+
+
+/* Правая половина контейнера */
+.right-side {
+    margin-left:60% ;
+    width: 40%;       /* Занимает оставшуюся половину экрана */
+    height: 100%;     /* Высота на весь экран */
+    /*background-color: #f0f0f0;  !* Светлый фон для правой части *!*/
+    background:rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(19px)
+
+}
+.search{
+    margin-top: 4%;
+    margin-left: 8%;
+    width: 80%;
+    height: 5%;
+    background-color: transparent;
+    backdrop-filter: blur(19px);
+    font-size: 70px;
+    color: rgba(255, 255, 255, 0.7);
+    border: none;
+    /*text-decoration: underline;*/
+    /*text-decoration-color: white; !* Сызыкка ак түс берүү *!*/
+    /*text-decoration-thickness: 3px; !* Сызыктын калыңдыгы *!*/
+
+}
+.bi{margin-top: 4%;
+    background-color: transparent;
+    height:5% ;
+    width: 5%;
+    border: none;
+
+        i{
+            color:white;
+           font-size: 70px;
+        }
+
+}
+
+

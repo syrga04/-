@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погода в вашем городе</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<video id="background-video" autoplay loop muted>
+    <source src="videos/sunny.mp4" type="video/mp4">
+    <source src="videos/sunny.webm" type="video/webm">
+    Ваш браузер не поддерживает видео.
+</video>
+
+<!-- Основной контейнер с размерами -->
+<div class="container">
+
+
+    <!-- Правая часть контейнера -->
+    <div class="right-side">
+
+        <input type="text" class="search" id="city" placeholder="Search Location...">
+        <button id="getWeatherBtn" class="bi"> <i class="bi bi-search"></i> </button>
+        <div class="rectangle"></div>
+        <div class="weather-info-item1">
+            <h3>Weather Details</h3>
+        </div>
+        <!-- Мутная левая часть контейнера -->
+        <div class="right-side-2">
+            <div class="weather-info" id="weatherInfo">
+
+
+
+                <h2>THUNDERSTORM WITH LIGHT DRIZZLE</h2>
+
+                <p>Temp max <span <i class="bi bi-thermometer-half"></i></span> 19° </p>
+                <p>Temp min <span class="Temp min" ><i class="bi bi-thermometer-half"></i></span> 15° </p>
+                <p>Humadity <span <i class="bi bi-droplet-fill"></i> </span> 58% </p>
+                <p>Clouds <span <i class="bi bi-clouds"></i> </span>86%</p>
+                <p>Wind <span <i class="bi bi-wind"></i> </span> 5km/h </p>
+
+
+
+            </div>
+        </div>
+
+        <div class="rectanglese"></div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
